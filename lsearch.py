@@ -1,4 +1,4 @@
-list = [int(item) for item in input("Enter list (seperated by space): ").split()]
+lst = [int(item) for item in input("Enter list (seperated by space): ").split()]
 num = int(input("Enter element to be found: "))
 
 def lsearch(l, n):
@@ -9,4 +9,4 @@ def lsearch(l, n):
 
     return flag
 
-print(lsearch(list, num))
+print(lsearch(lst, num))
