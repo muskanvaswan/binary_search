@@ -1,4 +1,4 @@
-list = [int(item) for item in input("Enter list (seperated by space): ").split()]
+lst = [int(item) for item in input("Enter list (seperated by space): ").split()]
 num = int(input("Enter element to be found: "))
 
 def binary_search(l, x):
@@ -22,4 +22,4 @@ def binary_search(l, x):
             print(x)
     return flag
 
-print(binary_search(list, num))
+print(binary_search(lst, num))
